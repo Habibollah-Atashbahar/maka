@@ -449,7 +449,7 @@ export default function Home() {
             Back-end Developer: Django and Go
           </p>
           <div className="flex flex-row my-2 justify-around items-center w-full">
-            <Link target="_blank" href="https://github.com/pouryasamimi">
+            <Link target="_blank" href="https://github.com/itpourya">
               <Image
                 src="/githubicon.png"
                 alt="github"
@@ -459,7 +459,7 @@ export default function Home() {
               />
             </Link>
 
-            <Link target="_blank" href="mailto:pouryasamimi@example.com">
+            <Link target="_blank" href="mailto:pouria.backdev@gmail.com">
               <Image
                 src="/emailicon.png"
                 alt="email"
@@ -469,7 +469,7 @@ export default function Home() {
               />
             </Link>
 
-            <Link target="_blank" href="https://t.me/pouryasamimi">
+            <Link target="_blank" href="https://t.me/heredeveloper">
               <Image
                 src="/telegramicon.png"
                 alt="telegram"
@@ -489,7 +489,7 @@ export default function Home() {
             project Manager: Python, C++, C#
           </p>
           <div className="flex flex-row my-2 justify-around items-center w-full">
-            <Link target="_blank" href="https://github.com/rezakhanzehi">
+            <Link target="_blank" href="https://github.com/itpourya">
               <Image
                 src="/githubicon.png"
                 alt="github"
@@ -499,7 +499,7 @@ export default function Home() {
               />
             </Link>
 
-            <Link target="_blank" href="mailto:rezakhanzehi@example.com">
+            <Link target="_blank" href="mailto:rezakhanzahi12@gmail.com">
               <Image
                 src="/emailicon.png"
                 alt="email"
@@ -509,7 +509,7 @@ export default function Home() {
               />
             </Link>
 
-            <Link target="_blank" href="https://t.me/rezakhanzehi">
+            <Link target="_blank" href="https://t.me/RK_with_k">
               <Image
                 src="/telegramicon.png"
                 alt="telegram"
