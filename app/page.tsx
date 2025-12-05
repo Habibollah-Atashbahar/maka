@@ -312,7 +312,7 @@ export default function Home() {
       {/* Team */}
       <div className="flex flex-col justify-center items-center mx-2 my-4">
         {/* Responsive text size */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl text-gray-700 mb-3 font-bold">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl text-black mb-3 font-bold">
           Maka Team
         </h1>
         <p className="text-lg sm:text-xl text-black">
@@ -325,7 +325,7 @@ export default function Home() {
         {/* Responsive width and text size */}
         <p
           dir="rtl"
-          className="text-base sm:text-lg md:text-xl w-full md:w-4/5 lg:w-3/4"
+          className="text-base sm:text-lg md:text-xl w-full md:w-4/5 lg:w-3/4 text-black"
         >
           تخصص اصلی ما در طراحی و توسعه سرویس‌ها و پلتفرم‌های تحت وب است. به
           موازات آن، در حال تحقیق و توسعه یک سامانه هوشمند برای شناورها هستیم که
@@ -343,7 +343,7 @@ export default function Home() {
             alt="email"
             width={20}
             height={20}
-            className="bg-gray-500 rounded-xl p-1"
+            className="bg-gray-800 rounded-xl p-1"
           />
           {/* Corrected link to open a compose window */}
           <Link
@@ -351,7 +351,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="mx-2 text-sm sm:text-base md:text-xl">
+            <p className="mx-2 text-sm sm:text-base md:text-xl text-black">
               makaseairan@gmail.com
             </p>
           </Link>
@@ -363,14 +363,16 @@ export default function Home() {
             alt="telegram"
             width={20}
             height={20}
-            className="bg-gray-500 rounded-xl p-1"
+            className="bg-gray-800 rounded-xl p-1"
           />
           <Link
             href={"https://t.me/AllahsFreind"}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="mx-2 text-sm sm:text-base md:text-xl">Telegram</p>
+            <p className="mx-2 text-sm sm:text-base md:text-xl text-black">
+              Telegram
+            </p>
           </Link>
         </div>
 
@@ -380,11 +382,13 @@ export default function Home() {
             alt="phone"
             width={20}
             height={20}
-            className="bg-gray-500 rounded-xl p-1"
+            className="bg-gray-800 rounded-xl p-1"
           />
           {/* Use tel: for phone numbers to open the dialer app on mobile */}
           <Link href={"tel:+989154316864"}>
-            <p className="mx-2 text-sm sm:text-base md:text-xl">09154316864</p>
+            <p className="mx-2 text-sm sm:text-base md:text-xl text-black">
+              09154316864
+            </p>
           </Link>
         </div>
       </div>
